@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #161a1d;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;    
+    background-color:#ffffff;
+}
+
+.navbar h1{   
+    text-align: center;
+    color: #ba181b;
+    font-size: 40px;
+       
+}
+
+.busca{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #d3d3d3;
+    height: 40px
+}
+
+.busca input{
+    height: 25px;
+    width: 200px;
+    font-size: 12px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding-left: 5px;
+}
+
+.busca button{
+    background: #ba181b ;
+    color: #161a1d;
+    height: 25px;	
+	border: none;	
+	font: inherit;
+	cursor: pointer;
+	width: 60px;
+    margin-left:4px;
+}
+
+.busca button:hover{
+    background-color: #a4161a;
+    color: #ffff
+}
+
+.resultado h1{
+    color:#ffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
